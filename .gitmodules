@@ -1,0 +1,16 @@
+[submodule "zuni-frontend2"]
+	path = zuni-frontend2
+	url = https://github.com/DV-Lab/zuni-frontend2
+	branch = main
+[submodule "zuni-backend2"]
+	path = zuni-backend2
+	url = https://github.com/DV-Lab/zuni-backend2
+	branch = main
+[submodule "zuni-mobile2"]
+	path = zuni-mobile2
+	url = https://github.com/DV-Lab/zuni-mobile2
+	branch = main
+[submodule "zuni-smart-contract"]
+	path = zuni-smart-contract
+	url = https://github.com/DV-Lab/zuni-smart-contract
+	branch = main
