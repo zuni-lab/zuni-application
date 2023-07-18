@@ -1,11 +1,11 @@
 name: Sync Super Repo
 on:
   push:
-    branches: [ main ]
-      
+    branches: [main]
+
 env:
   USERNAME: tranhuyducseven
-  EMAIL:  tranhuyducseven@gmail.com
+  EMAIL: tranhuyducseven@gmail.com
 
 jobs:
   sync:
@@ -22,7 +22,7 @@ jobs:
         run: |
           echo "[LOG] Sync Submodule Changes"
           git submodule sync
-          git submodule update --init --recursive
+          git submodule update --recursive --remote
 
       - name: Commit and Push Changes
         run: |
