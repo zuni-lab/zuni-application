@@ -1,0 +1,35 @@
+name: Sync Super Repo
+on:
+  push:
+    branches: [ main ]
+      
+env:
+  USERNAME: tranhuyducseven
+  EMAIL:  tranhuyducseven@gmail.com
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Super Repo
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          submodules: recursive
+
+      - name: Sync Submodule Changes
+        run: |
+          echo "[LOG] Sync Submodule Changes"
+          git submodule sync
+          git submodule update --init --recursive
+
+      - name: Commit and Push Changes
+        run: |
+          echo "[LOG] Setup global config" 
+          git config --global user.email "${{ env.EMAIL }}"
+          git config --global user.name "${{ env.USERNAME }}@users.noreply.github.com"
+          echo "[LOG] Push changes" 
+          git add .
+          git commit -m "Sync submodule changes"
+          git push
