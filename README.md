@@ -1,4 +1,4 @@
-# ZUNI: A PLATFORM FOR PRIVACY PRESERVING ELECTRONIC CERTIFICATION
+# ZUNI: Empowering Your Identity, Safeguarding Privacy
 >> @flow-hackathon-season2
 
 Hi superstars ✋, welcome to the ZUNI Application, developed by the DVLab team! 
