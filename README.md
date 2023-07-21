@@ -26,9 +26,9 @@ The ZUNI consists of the following repositories:
 More information, please follow the instructions provided in each repository's respective README file. 
 
 ## Contributions
-We welcome contributions from the community to enhance the ZUNI Application. If you would like to contribute, please review contactus for more information.
+We welcome contributions from the community to enhance the ZUNI Application. If you would like to contribute, please review emails in [Support](#support) for more information.
 
-## Support
+## Support <a name="support"></a>
 If you encounter any issues, have questions, or need assistance while using the ZUNI, please refer to the some of emails: [tranhuyducseven@gmail.com, dv.vn.labs@gmail.com]
 
 Copyright © 2023 DV Laboratory.
