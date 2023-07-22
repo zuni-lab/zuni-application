@@ -31,5 +31,8 @@ We welcome contributions from the community to enhance the ZUNI Application. If 
 ## Support <a name="support"></a>
 If you encounter any issues, have questions, or need assistance while using the ZUNI, please refer to the some of emails: [tranhuyducseven@gmail.com, dv.vn.labs@gmail.com]
 
+## License
+The ZUNI Application is open-source software released under the [MIT License](https://opensource.org/licenses/MIT).
+
 Copyright © 2023 DV Laboratory.
 
